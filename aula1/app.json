@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "aula1",
-    "slug": "aula1",
+    "name": "image-app",
+    "slug": "snack-81e46aac-424e-4d0f-8ed3-6ee499355534",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,6 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -22,6 +25,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "This Snack provides the complete Expo tutorial example. "
   }
 }
