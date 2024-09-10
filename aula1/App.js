@@ -7,13 +7,13 @@ import * as MediaLibrary from 'expo-media-library';
 import { captureRef } from 'react-native-view-shot';
 import domtoimage from 'dom-to-image';
 
-import Button from './components/Button';
-import ImageViewer from './components/ImageViewer';
-import CircleButton from './components/CircleButton';
-import IconButton from './components/IconButton';
-import EmojiPicker from './components/EmojiPicker';
-import EmojiList from './components/EmojiList';
-import EmojiSticker from './components/EmojiSticker';
+import Button from './components/Button.js';
+import ImageViewer from './components/ImageViewer.js';
+import CircleButton from './components/CircleButton.js';
+import IconButton from './components/IconButton.js';
+import EmojiPicker from './components/EmojiPicker.js';
+import EmojiList from './components/EmojiList.js';
+import EmojiSticker from './components/EmojiSticker.js';
 
 const PlaceholderImage = require('./assets/images/background-image.png');
 
@@ -94,7 +94,6 @@ export default function App() {
       <View style={styles.imageContainer}>
         <View ref={imageRef} collapsable={false}>
           <ImageViewer
-            ref={imageRef}
             placeholderImageSource={PlaceholderImage}
             selectedImage={selectedImage}
           />
