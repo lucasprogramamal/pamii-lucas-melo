@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Inputbox from './components/textinput';
+import { StyleSheet, Text, View, TextInput } from 'react-native';
+import { SafeAreaView, SafeAreaProvider } from "react-native";
+import inputbox from './components/Textinput';
 
 export default function App() {
   return (
